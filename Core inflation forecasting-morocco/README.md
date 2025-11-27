@@ -4,11 +4,7 @@ inflation-forecasting-morocco/
 ├── requirements.txt                   # Dépendances Python
 ├── environment.R                      # Packages R nécessaires
 │
-├── data/
-│   ├── raw/
-│   │   └── ipc_data.csv              # Données brutes ISJ
-│   └── processed/
-│       └── features_data.csv         # Données avec features engineered
+├── data
 │
 ├── notebooks/
 │   ├── 01_exploratory_analysis.R     # Exploration et visualisation
@@ -31,4 +27,5 @@ inflation-forecasting-morocco/
 │       └── model_comparison.csv      # Tableau comparatif des performances
 │
 └── docs/
+
     └── methodology.md                # Documentation méthodologique
