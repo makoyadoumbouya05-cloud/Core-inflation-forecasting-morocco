@@ -5,27 +5,27 @@ inflation-forecasting-morocco/
 ├── environment.R                      # Packages R nécessaires
 │
 ├── data
-│
+│  
 ├── notebooks/
-│   ├── 01_exploratory_analysis.R     # Exploration et visualisation
-│   ├── 02_stationarity_tests.R       # Tests ADF, KPSS
-│   ├── 03_arima_modeling.R           # Modélisation ARIMA
-│   └── 04_ml_models.ipynb            # Modèles ML (Random Forest, Ridge)
+│   ├── 01\_exploratory\_analysis.R     # Exploration et visualisation
+│   ├── 02\_stationarity\_tests.R       # Tests ADF, KPSS
+│   ├── 03\_arima\_modeling.R           # Modélisation ARIMA
+│   └── 04\_ml\_models.ipynb            # Modèles ML (Random Forest, Ridge)
 │
 ├── src/
-│   ├── data_preparation.py           # Fonctions de preprocessing
-│   ├── feature_engineering.py        # Création des features (lags, rolling)
-│   ├── arima_utils.R                 # Fonctions utilitaires ARIMA
-│   └── ml_models.py                  # Classes pour RF et Ridge
+│   ├── data\_preparation.py           # Fonctions de preprocessing
+│   ├── feature\_engineering.py        # Création des features (lags, rolling)
+│   ├── arima\_utils.R                 # Fonctions utilitaires ARIMA
+│   └── ml\_models.py                  # Classes pour RF et Ridge
 │
 ├── results/
 │   ├── figures/                      # Graphiques générés
-│   │   ├── acf_pacf_plot.png
-│   │   ├── forecast_arima.png
-│   │   └── forecast_ridge.png
+│   │   ├── acf\_pacf\_plot.png
+│   │   ├── forecast\_arima.png
+│   │   └── forecast\_ridge.png
 │   └── metrics/
-│       └── model_comparison.csv      # Tableau comparatif des performances
+│       └── model\_comparison.csv      # Tableau comparatif des performances
 │
 └── docs/
+└── methodology.md                # Documentation méthodologique
 
-    └── methodology.md                # Documentation méthodologique
